@@ -6,8 +6,8 @@ const command = process.argv[2]
 //console.log(process.argv)
 if (command === 'add') {
     console.log("in if construct")
-    var y = 20
-    console.log('value of y', y)
+    var x = 10
+    console.log('value of x', x)
     console.log("Adding Post...")
 }
 else if (command === 'remove') {
@@ -18,3 +18,4 @@ else if (command === 'remove') {
 else if(command === 'update'){
     console.log('update posts')
 }
+
