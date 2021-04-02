@@ -6,6 +6,8 @@ const command = process.argv[2]
 //console.log(process.argv)
 if (command === 'add') {
     console.log("in if construct")
+    var x = 10
+    console.log('value of x', x)
     console.log("Adding Post...")
 }
 else if (command === 'remove') {
